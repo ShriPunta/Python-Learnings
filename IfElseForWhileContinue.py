@@ -49,3 +49,12 @@ for i in range(101):
     print(i)
     if i%4==0:
         print("Hey")
+
+challenge = [1,2,3,4,5,6,7,8,9]
+
+for n in challenge:
+    if n%2==0:
+        continue
+        print('\n')
+    else:
+        print(n)
