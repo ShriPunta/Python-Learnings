@@ -21,5 +21,6 @@ for k,v in simpleMap.items():
 def modu():
     print("hey Nice import")
 
+import random
 
 
