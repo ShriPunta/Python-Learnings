@@ -2,7 +2,7 @@ import requests
 import os  #  file system operations
 import yaml # human-friendly data format
 import re  # regular expressions
-#import pandas as pd # pandas... the best time series library out there
+import pandas as pd # pandas... the best time series library out there
 import datetime as dt # date and time functions
 import io
 
@@ -52,14 +52,26 @@ end_date = (2019,5,20)
 print(start_date)
 print(dt.datetime(*start_date).timestamp())
 
+input_data_for_yahoo = (int(dt.datetime(*start_date).timestamp()),
+                        int(dt.datetime(*end_date).timestamp()),
+                        crumb
+                        )
 
 
+download_csv_url = "https://query1.finance.yahoo.com/v7/finance/download/AAPL?period1={0}&period2={1}&interval=1d&events=history&crumb={2}"
 
+formatted_url = download_csv_url.format(*input_data_for_yahoo)
 
+print(formatted_url)
 
+formatted_data = requests.get(formatted_url, cookies = {'B':cookie})
+print(formatted_data)
+#Creates a buffer
+buffer = io.StringIO(formatted_data.text)
 
-
-
+#converts to Panda's data frame
+dataFrame = pd.read_csv(buffer, skiprows=2, error_bad_lines=False, index_col=0)
+print(dataFrame.head())
 
 
 
