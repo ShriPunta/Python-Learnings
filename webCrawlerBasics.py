@@ -14,8 +14,7 @@ def crawler_method(url_to_crawl):
 
     source_code = requests.get(url_to_crawl)
     plain_text = source_code.text
-    file_name = base_dir + domain + ".txt"
-    file_to_write = open(file_name,'w')
+
     soup = BeautifulSoup(plain_text,"html.parser")
     for sidebar_titles in soup.findAll('a',{'class': 'reference internal'}):
         if i is 0:
@@ -39,6 +38,7 @@ def crawler_method(url_to_crawl):
         file_to_write.write('\n\n---------------------------------------------------------------------------- \n \n')
         i+=1
 
+        print_to_file()
 
 
 def get_domain_name(url):
@@ -52,7 +52,8 @@ def get_domain_name(url):
 
     return dom[:-4]
 
-
-
+def print_to_file(collectn_to_parse,domain):
+    file_name = base_dir + domain + ".txt"
+    file_to_write = open(file_name, 'w')
 
 crawler_method(url_to_crawl)
