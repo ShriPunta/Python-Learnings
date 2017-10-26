@@ -20,3 +20,11 @@ print(test_Dict)
 # print(test_Dict)
 # test_Dict.update()
 # print(test_Dict)
+
+
+for i in range(1,11):
+    J = (3 * i )
+    K = J + 7
+    L = K % 11
+    #For printing in binary
+    print(i,' ',L,' ',"{0:04b}".format(L))

@@ -2,6 +2,10 @@ class Enemy:
     health_points = 5
     _foo__is_dead = False
 
+    #Defining a Constructor
+    def __init__(self):
+        print("This is basically a constructor {}")
+
     def set_hp(self,points_to_set):
         if self._foo__is_dead == False:
             self.health_points = points_to_set
