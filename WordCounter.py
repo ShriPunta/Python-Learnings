@@ -3,7 +3,7 @@ from bs4 import BeautifulSoup
 import operator
 import sys
 
-def make_dic(url_to_parse):
+def get_site_and_parse(url_to_parse):
     word_list = []
     src_code = requests.get(url_to_parse).text
     soup = BeautifulSoup(src_code, "html.parser")
@@ -16,7 +16,8 @@ def make_dic(url_to_parse):
                 continue
             for each_word in words:
                 word_list.append(each_word)
-    print(len(word_list))
+
+    #print(len(word_list))
     #print(word_list)
     clean_words(word_list)
 
@@ -30,6 +31,30 @@ def clean_words(word_list):
     #unicode_line = unicode_line.translate(translation_table)
     for i in range(len(word_list)):
         word_list[i] = word_list[i].translate({ord(c): None for c in '~!@#$%^&*()_+=-,./\'\"[]{}\\|?'})
-    print(word_list)
+        word_list[i] = word_list[i].strip()
+        word_list[i] = word_list[i].replace(" ", "")
+    #print(word_list)
+    create_dic(word_list)
 
-make_dic('http://www.cs.sjsu.edu/~stamp/evals.html')
+def create_dic(clean_words):
+    freq_map = {}
+    sorted_freq_map = {}
+    #equivalent to creating a new map in Salesforce
+    for word in clean_words:
+        if word in freq_map:
+            freq_map[word] += 1
+        else:
+            freq_map[word] = 1
+
+    #print(freq_map)
+
+    #For Sorting purposes
+    #Operator.itemgetter sorts accordng to the input
+    #if itemgetter(1) then according to the value/frequency
+    #if itemgetter(0) then according to the key in dictionary i.e alphabetically in this case
+    for key,value in sorted(freq_map.items(),key=operator.itemgetter(1)):
+        sorted_freq_map[key] = value
+        print(key,value)
+    #print(sorted_freq_map)
+
+get_site_and_parse('http://www.cs.sjsu.edu/~stamp/evals.html')
