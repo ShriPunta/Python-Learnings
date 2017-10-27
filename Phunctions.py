@@ -42,3 +42,15 @@ Flexi_Args(*flexi)
 import Collecshuns
 
 Collecshuns.modu()
+
+#Using Unpacking of variables
+#We can use this unpacking if we do not know the variables
+#What it does is, it stores the first number in 'first' and last number in 'last'
+#All the middle numbers are stored in 'middle'
+def Flexi_Args(grades):
+    first, *middle, last = grades
+    avg = sum(middle)/len(middle)
+    print(avg)
+
+Flexi_Args([1,2,3,4,5,6,7,8,9])
+Flexi_Args([200,1,1,1,1,1,1,1,200])

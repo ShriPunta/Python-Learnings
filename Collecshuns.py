@@ -21,6 +21,8 @@ for k,v in simpleMap.items():
 def modu():
     print("hey Nice import")
 
-import random
+#Unpacking a list
+date, item, price = ['October 27,2017','Mouse',112]
+print(item)
 
 
