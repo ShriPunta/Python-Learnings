@@ -62,3 +62,10 @@ for n in challenge:
         print('\n')
     else:
         print(n)
+
+#For Anonymous looping use '_'
+#0,1,2,3,4,5,6,7,8
+k=0
+for _ in range(1, 10):
+    print("beh {}".format(k))
+    k+=1
