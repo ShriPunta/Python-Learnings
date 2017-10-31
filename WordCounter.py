@@ -58,3 +58,13 @@ def create_dic(clean_words):
     #print(sorted_freq_map)
 
 get_site_and_parse('http://www.cs.sjsu.edu/~stamp/evals.html')
+
+
+# -----------------------------using COunter to get the frequency---------------------------------------------
+from collections import Counter
+
+zxc = 'yaada yaada yaada bada bada bada yada yada badda badda badda poda poda poda bum bum pum pum'
+words = zxc.split()
+counter= Counter(words)
+first_two = counter.most_common(2)
+print(first_two)
