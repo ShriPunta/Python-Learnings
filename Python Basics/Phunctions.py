@@ -20,6 +20,7 @@ for x in range(0,10):
 def flexi_Param(*args):
     sum = 2
     print(args)
+    print(type(args))
     for n in args:
         sum+=n
     return sum
