@@ -2,8 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a2c7745e-77dd-4b6a-8f8e-7eea7ea59b0d" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Network Basics/Sniffer.py" afterPath="$PROJECT_DIR$/Network Basics/Sniffer.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Python Basics/Phunctions.py" afterPath="$PROJECT_DIR$/Python Basics/Phunctions.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Network Basics/Reverse Shell/Client.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Network Basics/Reverse Shell/Server.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Network Basics/Sniffer.py" afterPath="$PROJECT_DIR$/Network Basics/Network Sniffers/Sniffer.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -14,14 +16,24 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file leaf-file-name="Sniffer.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Network Basics/Sniffer.py">
+      <file leaf-file-name="Server.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Network Basics/Reverse Shell/Server.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="624">
-              <caret line="24" column="35" lean-forward="false" selection-start-line="24" selection-start-column="35" selection-end-line="24" selection-end-column="35" />
+            <state relative-caret-position="464">
+              <caret line="67" column="0" lean-forward="true" selection-start-line="67" selection-start-column="0" selection-end-line="67" selection-end-column="0" />
               <folding>
-                <element signature="e#0#13#0" expanded="true" />
+                <element signature="e#185#198#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Client.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Network Basics/Reverse Shell/Client.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="78">
+              <caret line="3" column="58" lean-forward="false" selection-start-line="3" selection-start-column="58" selection-end-line="3" selection-end-column="58" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -71,6 +83,8 @@
         <option value="$PROJECT_DIR$/Python Basics/InBuiltFunctions.py" />
         <option value="$PROJECT_DIR$/Python Basics/Phunctions.py" />
         <option value="$PROJECT_DIR$/Network Basics/Sniffer.py" />
+        <option value="$PROJECT_DIR$/Network Basics/Reverse Shell/Client.py" />
+        <option value="$PROJECT_DIR$/Network Basics/Reverse Shell/Server.py" />
       </list>
     </option>
   </component>
@@ -112,6 +126,12 @@
               <item name="Python Learnings" type="462c0819:PsiDirectoryNode" />
               <item name="Network Basics" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="Python Learnings" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Python Learnings" type="462c0819:PsiDirectoryNode" />
+              <item name="Network Basics" type="462c0819:PsiDirectoryNode" />
+              <item name="Reverse Shell" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -124,6 +144,7 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\shrip\Documents\Study Material\GIT Hub Repository\Python Learnings\Network Basics\Network Sniffers" />
       <recent name="C:\Users\shrip\Documents\Study Material\GIT Hub Repository\Python Learnings\Python Basics" />
     </key>
   </component>
@@ -139,7 +160,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.NetworkBasics">
+  <component name="RunManager" selected="Python.Server">
     <configuration name="ImageProcessing" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -191,19 +212,19 @@
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
     </configuration>
-    <configuration name="Threading" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="Server" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Network Basics/Reverse Shell" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="Python Learnings" />
-      <option name="SCRIPT_NAME" value="C:\Users\shrip\Documents\Study Material\GIT Hub Repository\Python Learnings\Python Basics\Threading.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Network Basics/Reverse Shell/Server.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -226,19 +247,19 @@
       <option name="EMULATE_TERMINAL" value="false" />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Python.Threading" />
-      <item index="1" class="java.lang.String" itemvalue="Python.WordCounter" />
-      <item index="2" class="java.lang.String" itemvalue="Python.InBuiltFunctions" />
-      <item index="3" class="java.lang.String" itemvalue="Python.ImageProcessing" />
-      <item index="4" class="java.lang.String" itemvalue="Python.NetworkBasics" />
+      <item index="0" class="java.lang.String" itemvalue="Python.WordCounter" />
+      <item index="1" class="java.lang.String" itemvalue="Python.InBuiltFunctions" />
+      <item index="2" class="java.lang.String" itemvalue="Python.ImageProcessing" />
+      <item index="3" class="java.lang.String" itemvalue="Python.NetworkBasics" />
+      <item index="4" class="java.lang.String" itemvalue="Python.Server" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python.NetworkBasics" />
-        <item index="1" class="java.lang.String" itemvalue="Python.ImageProcessing" />
-        <item index="2" class="java.lang.String" itemvalue="Python.InBuiltFunctions" />
-        <item index="3" class="java.lang.String" itemvalue="Python.WordCounter" />
-        <item index="4" class="java.lang.String" itemvalue="Python.Threading" />
+        <item index="0" class="java.lang.String" itemvalue="Python.Server" />
+        <item index="1" class="java.lang.String" itemvalue="Python.NetworkBasics" />
+        <item index="2" class="java.lang.String" itemvalue="Python.ImageProcessing" />
+        <item index="3" class="java.lang.String" itemvalue="Python.InBuiltFunctions" />
+        <item index="4" class="java.lang.String" itemvalue="Python.WordCounter" />
       </list>
     </recent_temporary>
   </component>
@@ -393,63 +414,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Python Basics/Phunctions.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Python Basics/WordCounter.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#15#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Python Basics/downloadCSVandWriteToFile.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="546">
-          <caret line="32" column="68" lean-forward="false" selection-start-line="32" selection-start-column="21" selection-end-line="32" selection-end-column="68" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Python Basics/test.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="441">
-          <caret line="21" column="18" lean-forward="true" selection-start-line="21" selection-start-column="18" selection-end-line="21" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Python Basics/FilePhunc.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="84">
-          <caret line="4" column="22" lean-forward="false" selection-start-line="4" selection-start-column="22" selection-end-line="4" selection-end-column="22" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Python Basics/Image_Download_From_Url.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="21" lean-forward="false" selection-start-line="0" selection-start-column="21" selection-end-line="0" selection-end-column="21" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Python Basics/Collecshuns.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="504">
-          <caret line="24" column="0" lean-forward="true" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Python Basics/webCrawlerBasics.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1155">
@@ -638,13 +602,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/.PyCharmCE2017.2/system/python_stubs/1820750219/builtins.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="20358">
-          <caret line="783" column="35" lean-forward="true" selection-start-line="783" selection-start-column="35" selection-end-line="783" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$USER_HOME$/.PyCharmCE2017.2/system/python_stubs/1820750219/_thread.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="3558">
@@ -746,13 +703,103 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Network Basics/Sniffer.py">
+    <entry file="file://$PROJECT_DIR$/Network Basics/Network Sniffers/Sniffer.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="624">
           <caret line="24" column="35" lean-forward="false" selection-start-line="24" selection-start-column="35" selection-end-line="24" selection-end-column="35" />
           <folding>
             <element signature="e#0#13#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.PyCharmCE2017.2/system/python_stubs/1820750219/_tkinter.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2186">
+          <caret line="127" column="8" lean-forward="false" selection-start-line="127" selection-start-column="8" selection-end-line="127" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python36/Lib/tkinter/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="396">
+          <caret line="685" column="18" lean-forward="true" selection-start-line="685" selection-start-column="18" selection-end-line="685" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python36/Lib/turtle.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="425" column="24" lean-forward="true" selection-start-line="425" selection-start-column="24" selection-end-line="425" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python36/Lib/asyncore.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="396">
+          <caret line="324" column="30" lean-forward="false" selection-start-line="324" selection-start-column="30" selection-end-line="324" selection-end-column="30" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.PyCharmCE2017.2/system/python_stubs/1820750219/_socket.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="370">
+          <caret line="676" column="8" lean-forward="true" selection-start-line="676" selection-start-column="8" selection-end-line="676" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python36/Lib/socket.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="282">
+          <caret line="429" column="8" lean-forward="false" selection-start-line="429" selection-start-column="8" selection-end-line="429" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.PyCharmCE2017.2/system/python_stubs/1820750219/builtins.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="292">
+          <caret line="233" column="4" lean-forward="false" selection-start-line="233" selection-start-column="4" selection-end-line="233" selection-end-column="4" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_HOME_DIR$/helpers/typeshed/stdlib/3/builtins.pyi">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="292">
+          <caret line="846" column="21" lean-forward="false" selection-start-line="846" selection-start-column="21" selection-end-line="846" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python36/Lib/typing.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="189" column="18" lean-forward="true" selection-start-line="189" selection-start-column="18" selection-end-line="189" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Network Basics/Reverse Shell/Server.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="464">
+          <caret line="67" column="0" lean-forward="true" selection-start-line="67" selection-start-column="0" selection-end-line="67" selection-end-column="0" />
+          <folding>
+            <element signature="e#185#198#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Network Basics/Reverse Shell/Client.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="78">
+          <caret line="3" column="58" lean-forward="false" selection-start-line="3" selection-start-column="58" selection-end-line="3" selection-end-column="58" />
+          <folding />
         </state>
       </provider>
     </entry>
