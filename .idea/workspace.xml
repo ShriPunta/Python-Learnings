@@ -2,8 +2,22 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a2c7745e-77dd-4b6a-8f8e-7eea7ea59b0d" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Classes.py" afterPath="$PROJECT_DIR$/Classes.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Collecshuns.py" afterPath="$PROJECT_DIR$/Collecshuns.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Classes.py" afterPath="$PROJECT_DIR$/Python Basics/Classes.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Classes2Inheritance.py" afterPath="$PROJECT_DIR$/Python Basics/Classes2Inheritance.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Collecshuns.py" afterPath="$PROJECT_DIR$/Python Basics/Collecshuns.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/ExceptionHandling.py" afterPath="$PROJECT_DIR$/Python Basics/ExceptionHandling.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/FilePhunc.py" afterPath="$PROJECT_DIR$/Python Basics/FilePhunc.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/IfElseForWhileContinue.py" afterPath="$PROJECT_DIR$/Python Basics/IfElseForWhileContinue.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/ImageProcessing.py" afterPath="$PROJECT_DIR$/Python Basics/ImageProcessing.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Image_Download_From_Url.py" afterPath="$PROJECT_DIR$/Python Basics/Image_Download_From_Url.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/InBuiltFunctions.py" afterPath="$PROJECT_DIR$/Python Basics/InBuiltFunctions.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/NetworkBasics.py" afterPath="$PROJECT_DIR$/Python Basics/NetworkBasics.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Phunctions.py" afterPath="$PROJECT_DIR$/Python Basics/Phunctions.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Threading.py" afterPath="$PROJECT_DIR$/Python Basics/Threading.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/WordCounter.py" afterPath="$PROJECT_DIR$/Python Basics/WordCounter.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/downloadCSVandWriteToFile.py" afterPath="$PROJECT_DIR$/Python Basics/downloadCSVandWriteToFile.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/test.py" afterPath="$PROJECT_DIR$/Python Basics/test.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/webCrawlerBasics.py" afterPath="$PROJECT_DIR$/Python Basics/webCrawlerBasics.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -13,28 +27,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file leaf-file-name="Collecshuns.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Collecshuns.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="562">
-              <caret line="51" column="12" lean-forward="true" selection-start-line="51" selection-start-column="12" selection-end-line="51" selection-end-column="12" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Classes.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Classes.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="260">
-              <caret line="57" column="31" lean-forward="true" selection-start-line="57" selection-start-column="31" selection-end-line="57" selection-end-column="31" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="375" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -118,6 +111,11 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\shrip\Documents\Study Material\GIT Hub Repository\Python Learnings\Python Basics" />
+    </key>
+  </component>
   <component name="RunDashboard">
     <option name="ruleStates">
       <list>
@@ -143,7 +141,7 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="Python Learnings" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/ImageProcessing.py" />
+      <option name="SCRIPT_NAME" value="C:\Users\shrip\Documents\Study Material\GIT Hub Repository\Python Learnings\Python Basics\ImageProcessing.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -160,7 +158,7 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="Python Learnings" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/InBuiltFunctions.py" />
+      <option name="SCRIPT_NAME" value="C:\Users\shrip\Documents\Study Material\GIT Hub Repository\Python Learnings\Python Basics\InBuiltFunctions.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -177,7 +175,7 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="Python Learnings" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/NetworkBasics.py" />
+      <option name="SCRIPT_NAME" value="C:\Users\shrip\Documents\Study Material\GIT Hub Repository\Python Learnings\Python Basics\NetworkBasics.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -194,7 +192,7 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="Python Learnings" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Threading.py" />
+      <option name="SCRIPT_NAME" value="C:\Users\shrip\Documents\Study Material\GIT Hub Repository\Python Learnings\Python Basics\Threading.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -211,7 +209,7 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="Python Learnings" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/WordCounter.py" />
+      <option name="SCRIPT_NAME" value="C:\Users\shrip\Documents\Study Material\GIT Hub Repository\Python Learnings\Python Basics\WordCounter.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -248,9 +246,8 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-9" y="-9" width="1938" height="1048" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24947916" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24947916" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24503312" sideWeight="0.503125" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24503312" sideWeight="0.496875" order="2" side_tool="false" content_ui="tabs" />
@@ -297,81 +294,81 @@
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/Image_Download_From_Url.py</url>
+          <url>file://$PROJECT_DIR$/Python Basics/Image_Download_From_Url.py</url>
           <line>8</line>
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/Image_Download_From_Url.py</url>
+          <url>file://$PROJECT_DIR$/Python Basics/Image_Download_From_Url.py</url>
           <line>4</line>
           <option name="timeStamp" value="1" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/Image_Download_From_Url.py</url>
+          <url>file://$PROJECT_DIR$/Python Basics/Image_Download_From_Url.py</url>
           <line>9</line>
           <option name="timeStamp" value="2" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/Image_Download_From_Url.py</url>
+          <url>file://$PROJECT_DIR$/Python Basics/Image_Download_From_Url.py</url>
           <line>10</line>
           <option name="timeStamp" value="3" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/FilePhunc.py</url>
+          <url>file://$PROJECT_DIR$/Python Basics/FilePhunc.py</url>
           <line>2</line>
           <option name="timeStamp" value="5" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/FilePhunc.py</url>
+          <url>file://$PROJECT_DIR$/Python Basics/FilePhunc.py</url>
           <line>3</line>
           <option name="timeStamp" value="6" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/FilePhunc.py</url>
+          <url>file://$PROJECT_DIR$/Python Basics/FilePhunc.py</url>
           <line>1</line>
           <option name="timeStamp" value="7" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/FilePhunc.py</url>
+          <url>file://$PROJECT_DIR$/Python Basics/FilePhunc.py</url>
           <line>4</line>
           <option name="timeStamp" value="8" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/downloadCSVandWriteToFile.py</url>
+          <url>file://$PROJECT_DIR$/Python Basics/downloadCSVandWriteToFile.py</url>
           <line>97</line>
           <option name="timeStamp" value="10" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/downloadCSVandWriteToFile.py</url>
+          <url>file://$PROJECT_DIR$/Python Basics/downloadCSVandWriteToFile.py</url>
           <line>87</line>
           <option name="timeStamp" value="11" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/downloadCSVandWriteToFile.py</url>
+          <url>file://$PROJECT_DIR$/Python Basics/downloadCSVandWriteToFile.py</url>
           <line>88</line>
           <option name="timeStamp" value="12" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/downloadCSVandWriteToFile.py</url>
+          <url>file://$PROJECT_DIR$/Python Basics/downloadCSVandWriteToFile.py</url>
           <line>89</line>
           <option name="timeStamp" value="13" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/downloadCSVandWriteToFile.py</url>
+          <url>file://$PROJECT_DIR$/Python Basics/downloadCSVandWriteToFile.py</url>
           <line>91</line>
           <option name="timeStamp" value="14" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/downloadCSVandWriteToFile.py</url>
+          <url>file://$PROJECT_DIR$/Python Basics/downloadCSVandWriteToFile.py</url>
           <line>90</line>
           <option name="timeStamp" value="16" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/downloadCSVandWriteToFile.py</url>
+          <url>file://$PROJECT_DIR$/Python Basics/downloadCSVandWriteToFile.py</url>
           <line>92</line>
           <option name="timeStamp" value="17" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/downloadCSVandWriteToFile.py</url>
+          <url>file://$PROJECT_DIR$/Python Basics/downloadCSVandWriteToFile.py</url>
           <line>95</line>
           <option name="timeStamp" value="18" />
         </line-breakpoint>
@@ -384,7 +381,7 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Phunctions.py">
+    <entry file="file://$PROJECT_DIR$/Python Basics/Phunctions.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -392,7 +389,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/WordCounter.py">
+    <entry file="file://$PROJECT_DIR$/Python Basics/WordCounter.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -402,7 +399,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/downloadCSVandWriteToFile.py">
+    <entry file="file://$PROJECT_DIR$/Python Basics/downloadCSVandWriteToFile.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="546">
           <caret line="32" column="68" lean-forward="false" selection-start-line="32" selection-start-column="21" selection-end-line="32" selection-end-column="68" />
@@ -412,14 +409,14 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test.py">
+    <entry file="file://$PROJECT_DIR$/Python Basics/test.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="441">
           <caret line="21" column="18" lean-forward="true" selection-start-line="21" selection-start-column="18" selection-end-line="21" selection-end-column="18" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/FilePhunc.py">
+    <entry file="file://$PROJECT_DIR$/Python Basics/FilePhunc.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="84">
           <caret line="4" column="22" lean-forward="false" selection-start-line="4" selection-start-column="22" selection-end-line="4" selection-end-column="22" />
@@ -427,7 +424,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Image_Download_From_Url.py">
+    <entry file="file://$PROJECT_DIR$/Python Basics/Image_Download_From_Url.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="21" lean-forward="false" selection-start-line="0" selection-start-column="21" selection-end-line="0" selection-end-column="21" />
@@ -435,7 +432,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Collecshuns.py">
+    <entry file="file://$PROJECT_DIR$/Python Basics/Collecshuns.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="504">
           <caret line="24" column="0" lean-forward="true" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
@@ -443,14 +440,14 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/webCrawlerBasics.py">
+    <entry file="file://$PROJECT_DIR$/Python Basics/webCrawlerBasics.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1155">
           <caret line="58" column="28" lean-forward="true" selection-start-line="58" selection-start-column="28" selection-end-line="58" selection-end-column="28" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/downloadCSVandWriteToFile.py">
+    <entry file="file://$PROJECT_DIR$/Python Basics/downloadCSVandWriteToFile.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -460,7 +457,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Image_Download_From_Url.py">
+    <entry file="file://$PROJECT_DIR$/Python Basics/Image_Download_From_Url.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -482,7 +479,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Collecshuns.py">
+    <entry file="file://$PROJECT_DIR$/Python Basics/Collecshuns.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="483">
           <caret line="23" column="12" lean-forward="false" selection-start-line="23" selection-start-column="12" selection-end-line="23" selection-end-column="12" />
@@ -490,7 +487,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Phunctions.py">
+    <entry file="file://$PROJECT_DIR$/Python Basics/Phunctions.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="861">
           <caret line="41" column="13" lean-forward="true" selection-start-line="41" selection-start-column="13" selection-end-line="41" selection-end-column="13" />
@@ -581,7 +578,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Image_Download_From_Url.py">
+    <entry file="file://$PROJECT_DIR$/Python Basics/Image_Download_From_Url.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="21" lean-forward="false" selection-start-line="0" selection-start-column="21" selection-end-line="0" selection-end-column="21" />
@@ -589,7 +586,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/downloadCSVandWriteToFile.py">
+    <entry file="file://$PROJECT_DIR$/Python Basics/downloadCSVandWriteToFile.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="546">
           <caret line="32" column="68" lean-forward="false" selection-start-line="32" selection-start-column="21" selection-end-line="32" selection-end-column="68" />
@@ -599,7 +596,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/FilePhunc.py">
+    <entry file="file://$PROJECT_DIR$/Python Basics/FilePhunc.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="84">
           <caret line="4" column="22" lean-forward="false" selection-start-line="4" selection-start-column="22" selection-end-line="4" selection-end-column="22" />
@@ -607,7 +604,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ExceptionHandling.py">
+    <entry file="file://$PROJECT_DIR$/Python Basics/ExceptionHandling.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="357">
           <caret line="17" column="0" lean-forward="true" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
@@ -621,14 +618,14 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Classes2Inheritance.py">
+    <entry file="file://$PROJECT_DIR$/Python Basics/Classes2Inheritance.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="420">
           <caret line="20" column="26" lean-forward="false" selection-start-line="20" selection-start-column="26" selection-end-line="20" selection-end-column="26" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/IfElseForWhileContinue.py">
+    <entry file="file://$PROJECT_DIR$/Python Basics/IfElseForWhileContinue.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="403">
           <caret line="68" column="22" lean-forward="true" selection-start-line="68" selection-start-column="22" selection-end-line="68" selection-end-column="22" />
@@ -656,14 +653,14 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/webCrawlerBasics.py">
+    <entry file="file://$PROJECT_DIR$/Python Basics/webCrawlerBasics.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Threading.py">
+    <entry file="file://$PROJECT_DIR$/Python Basics/Threading.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="468">
           <caret line="18" column="0" lean-forward="true" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
@@ -677,7 +674,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Phunctions.py">
+    <entry file="file://$PROJECT_DIR$/Python Basics/Phunctions.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1274">
           <caret line="49" column="23" lean-forward="false" selection-start-line="49" selection-start-column="23" selection-end-line="49" selection-end-column="23" />
@@ -685,7 +682,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test.py">
+    <entry file="file://$PROJECT_DIR$/Python Basics/test.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="208">
           <caret line="9" column="0" lean-forward="false" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
@@ -693,7 +690,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/InBuiltFunctions.py">
+    <entry file="file://$PROJECT_DIR$/Python Basics/InBuiltFunctions.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="146">
           <caret line="43" column="0" lean-forward="true" selection-start-line="43" selection-start-column="0" selection-end-line="43" selection-end-column="0" />
@@ -701,7 +698,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ImageProcessing.py">
+    <entry file="file://$PROJECT_DIR$/Python Basics/ImageProcessing.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="390">
           <caret line="15" column="11" lean-forward="true" selection-start-line="15" selection-start-column="11" selection-end-line="15" selection-end-column="11" />
@@ -709,7 +706,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/NetworkBasics.py">
+    <entry file="file://$PROJECT_DIR$/Python Basics/NetworkBasics.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="470">
           <caret line="38" column="7" lean-forward="false" selection-start-line="38" selection-start-column="7" selection-end-line="38" selection-end-column="7" />
@@ -719,7 +716,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/WordCounter.py">
+    <entry file="file://$PROJECT_DIR$/Python Basics/WordCounter.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="220">
           <caret line="63" column="21" lean-forward="false" selection-start-line="63" selection-start-column="21" selection-end-line="63" selection-end-column="21" />
@@ -729,7 +726,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Collecshuns.py">
+    <entry file="file://$PROJECT_DIR$/Python Basics/Collecshuns.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="562">
           <caret line="51" column="12" lean-forward="true" selection-start-line="51" selection-start-column="12" selection-end-line="51" selection-end-column="12" />
@@ -737,7 +734,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Classes.py">
+    <entry file="file://$PROJECT_DIR$/Python Basics/Classes.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="260">
           <caret line="57" column="31" lean-forward="true" selection-start-line="57" selection-start-column="31" selection-end-line="57" selection-end-column="31" />
