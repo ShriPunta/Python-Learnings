@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a2c7745e-77dd-4b6a-8f8e-7eea7ea59b0d" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Classes.py" afterPath="$PROJECT_DIR$/Classes.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Collecshuns.py" afterPath="$PROJECT_DIR$/Collecshuns.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/NetworkBasics.py" afterPath="$PROJECT_DIR$/NetworkBasics.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WordCounter.py" afterPath="$PROJECT_DIR$/WordCounter.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -18,21 +17,19 @@
       <file leaf-file-name="Collecshuns.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Collecshuns.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="368">
-              <caret line="33" column="38" lean-forward="true" selection-start-line="33" selection-start-column="38" selection-end-line="33" selection-end-column="38" />
+            <state relative-caret-position="562">
+              <caret line="51" column="12" lean-forward="true" selection-start-line="51" selection-start-column="12" selection-end-line="51" selection-end-column="12" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="WordCounter.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/WordCounter.py">
+      <file leaf-file-name="Classes.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Classes.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="388">
-              <caret line="63" column="21" lean-forward="false" selection-start-line="63" selection-start-column="21" selection-end-line="63" selection-end-column="21" />
-              <folding>
-                <element signature="e#0#15#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="260">
+              <caret line="57" column="31" lean-forward="true" selection-start-line="57" selection-start-column="31" selection-end-line="57" selection-end-column="31" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -63,7 +60,6 @@
         <option value="$PROJECT_DIR$/downloadCSVandWriteToFile.py" />
         <option value="$PROJECT_DIR$/webCrawlerBasics.py" />
         <option value="$PROJECT_DIR$/ExceptionHandling.py" />
-        <option value="$PROJECT_DIR$/Classes.py" />
         <option value="$PROJECT_DIR$/Classes2.py" />
         <option value="$PROJECT_DIR$/Classes2Inheritance.py" />
         <option value="$PROJECT_DIR$/IfElseForWhileContinue.py" />
@@ -73,8 +69,9 @@
         <option value="$PROJECT_DIR$/InBuiltFunctions.py" />
         <option value="$PROJECT_DIR$/ImageProcessing.py" />
         <option value="$PROJECT_DIR$/NetworkBasics.py" />
-        <option value="$PROJECT_DIR$/Collecshuns.py" />
         <option value="$PROJECT_DIR$/WordCounter.py" />
+        <option value="$PROJECT_DIR$/Collecshuns.py" />
+        <option value="$PROJECT_DIR$/Classes.py" />
       </list>
     </option>
   </component>
@@ -624,13 +621,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Classes.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="505">
-          <caret line="43" column="32" lean-forward="false" selection-start-line="43" selection-start-column="32" selection-end-line="43" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Classes2Inheritance.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="420">
@@ -729,21 +719,29 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Collecshuns.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="368">
-          <caret line="33" column="38" lean-forward="true" selection-start-line="33" selection-start-column="38" selection-end-line="33" selection-end-column="38" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/WordCounter.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="388">
+        <state relative-caret-position="220">
           <caret line="63" column="21" lean-forward="false" selection-start-line="63" selection-start-column="21" selection-end-line="63" selection-end-column="21" />
           <folding>
             <element signature="e#0#15#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Collecshuns.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="562">
+          <caret line="51" column="12" lean-forward="true" selection-start-line="51" selection-start-column="12" selection-end-line="51" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Classes.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="260">
+          <caret line="57" column="31" lean-forward="true" selection-start-line="57" selection-start-column="31" selection-end-line="57" selection-end-column="31" />
+          <folding />
         </state>
       </provider>
     </entry>

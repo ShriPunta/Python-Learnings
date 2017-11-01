@@ -28,7 +28,30 @@ date, item, price = ['October 27,2017','Mouse',112]
 print(item)
 
 import heapq
-notSoSimpleMap = {'price1':1,'price2':2,'price3':3,'price4':4}
+
+notSoSimpleMap = [{'price':1},{'price':2},{'price':3},{'price':4}]
+print(type(notSoSimpleMap))
 #HeapQ
 #Finding the largest
-print(heapq.nsmallest(2,notSoSimpleMap))
+print(heapq.nsmallest(2,notSoSimpleMap,key = lambda x: x['price']))
+
+
+#Sorting Dictionaries multiple keys
+from operator import itemgetter
+allUsers = [
+    {'fname': 'Cate', 'lname':'Blanchett'},
+    {'fname': 'Bucky', 'lname': 'Roberts'},
+    {'fname': 'Chris', 'lname': 'Hemsworth'},
+    {'fname': 'Tom', 'lname': 'Hiddleston'},
+    {'fname': 'Tom', 'lname': 'Felton'},
+    {'fname': 'Tom', 'lname': 'Hanks'}
+]
+
+#Sorted with fname, if the fname is same, we can give another argument to resolve the issue
+for x in sorted(allUsers, key = itemgetter('fname')):
+    print(x)
+
+print('------------------------')
+
+for x in sorted(allUsers, key = itemgetter('fname','lname')):
+    print(x)
