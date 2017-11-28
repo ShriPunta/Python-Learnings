@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/../CS-257-GeoSpatial-Database/.idea/CS-257-GeoSpatial-Database.iml" filepath="$PROJECT_DIR$/../CS-257-GeoSpatial-Database/.idea/CS-257-GeoSpatial-Database.iml" />
       <module fileurl="file://$PROJECT_DIR$/../Machine Learnings/.idea/Machine Learnings.iml" filepath="$PROJECT_DIR$/../Machine Learnings/.idea/Machine Learnings.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/Python Learnings.iml" filepath="$PROJECT_DIR$/.idea/Python Learnings.iml" />
       <module fileurl="file://$PROJECT_DIR$/../SwaProjects/.idea/SwaProjects.iml" filepath="$PROJECT_DIR$/../SwaProjects/.idea/SwaProjects.iml" />

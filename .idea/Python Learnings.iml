@@ -6,6 +6,7 @@
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="module" module-name="Machine Learnings" />
     <orderEntry type="module" module-name="SwaProjects" />
+    <orderEntry type="module" module-name="CS-257-GeoSpatial-Database" />
   </component>
   <component name="TestRunnerService">
     <option name="PROJECT_TEST_RUNNER" value="Unittests" />

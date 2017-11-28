@@ -14,7 +14,8 @@ def crawler_method(url_to_crawl):
 
     source_code = requests.get(url_to_crawl)
     plain_text = source_code.text
-
+    file_name = base_dir + domain + ".txt"
+    file_to_write = open(file_name, 'w')
     soup = BeautifulSoup(plain_text,"html.parser")
     for sidebar_titles in soup.findAll('a',{'class': 'reference internal'}):
         if i is 0:
